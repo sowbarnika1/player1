@@ -15,14 +15,6 @@ int main()
             break;
      case 'X':  a[i] = 10;
             break;
-     case 'L':  a[i] = 50;
-            break;
-     case 'C':  a[i] = 100;
-            break;
-     case 'D':  a[i]= 500;
-            break;
-     case 'M':  a[i] = 1000;
-            break;
      default :  printf("Invalid choice");
             break;
       }
