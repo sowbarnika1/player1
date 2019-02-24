@@ -4,8 +4,8 @@ int main()
 {
     char a[100],b[100];
     int i,c=0,n=0,j=0;
-    gets(a);
-    gets(b);
+    scanf("%s",a);
+    scanf("%s",b);
     for(i=0;a[i]!='\0';i++)
     {
         c++;
