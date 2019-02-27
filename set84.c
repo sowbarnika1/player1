@@ -4,7 +4,7 @@ int main()
     long int a,b,i,m=1;
     scanf("%ld",&a);
     scanf("%ld",&b);
-   if((1>=a && a<=5) && (1>=b && b<=50))
+   if((a>=1 && a<=5) && (b>=1 && b<=50))
    {
        for(i=1;i<=b;i++)
        {
