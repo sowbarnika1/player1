@@ -19,7 +19,7 @@ int main()
             }
         }
     }
-    if(d<0)
+    if(max<0)
     {
         max=-max;
     }
