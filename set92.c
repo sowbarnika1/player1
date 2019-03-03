@@ -8,21 +8,13 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    if(n==1)
-    {
-        printf("%d",a[0]);
-    }
-    else
-    {
-        t=a[0];
+    t=a[0];
     for(i=0;i<n-1;i++)
     {
         {
             t=(t&a[i+1]);
-            
         }
     }
     printf("%d",t);
-    }
     return 0;
 }
