@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a,bin=0,rem,p=1;
-    scanf("%d",&a);
+   long int a,bin=0,rem,p=1;
+    scanf("%ld",&a);
     while(a>0)
     {
         rem=a%2;
@@ -10,6 +10,6 @@ int main()
         p=p*10;
         a=a/2;
     }
-    printf("%d",bin);
+    printf("%ld",bin);
     return 0;
 }   
