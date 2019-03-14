@@ -2,20 +2,24 @@
 #include<string.h>
 int main()
 {
-    char a[100000];
-    int i,l,c=0,k;
-    scanf("%s",&a);
-    scanf("%d",&k);
-    l=strlen(a);
-    for(i=0;i<l;i++)
+    long int k,n,c=0,s=0,rem,t;
+    scanf(" %ld %ld",&n,&k);
+    t=n;
+    while(t)
     {
-     if(a[i]>=0 && a[i]<=k)
-            {
-                c++;
-            }
+        t=t/10;
+        s++;
     }
-    printf("%d",c);
-    if(l==c)
+    while(n)
+    {
+        rem=n%10;
+        if(rem>=0 && rem<=k)
+        {
+            c++;
+        }
+        n=n/10;
+    }
+    if(c==s)
     {
         printf("yes");
     }
